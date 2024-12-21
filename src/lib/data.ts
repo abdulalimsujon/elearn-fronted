@@ -1,6 +1,6 @@
 // TEMPORARY DATA
 
-export let role = "admin";
+export let role = "student";
 
 export const teachersData = [
   {
@@ -915,149 +915,154 @@ export const announcementsData = [
   },
 ];
 
-
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [
+  // Events for December 2024 (21-30)
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(2024, 11, 21, 8, 0),
+    end: new Date(2024, 11, 21, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 12, 9, 0),
-    end: new Date(2024, 7, 12, 9, 45),
+    start: new Date(2024, 11, 21, 9, 0),
+    end: new Date(2024, 11, 21, 9, 45),
   },
   {
-    title: "Biology",
+    title: "History",
     allDay: false,
-    start: new Date(2024, 7, 12, 10, 0),
-    end: new Date(2024, 7, 12, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 7, 12, 11, 0),
-    end: new Date(2024, 7, 12, 11, 45),
+    start: new Date(2024, 11, 21, 14, 0),
+    end: new Date(2024, 11, 21, 14, 45),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 12, 13, 0),
-    end: new Date(2024, 7, 12, 13, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 12, 14, 0),
-    end: new Date(2024, 7, 12, 14, 45),
-  },
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2024, 7, 13, 9, 0),
-    end: new Date(2024, 7, 13, 9, 45),
+    start: new Date(2024, 11, 22, 13, 0),
+    end: new Date(2024, 11, 22, 13, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 13, 10, 0),
-    end: new Date(2024, 7, 13, 10, 45),
+    start: new Date(2024, 11, 23, 10, 0),
+    end: new Date(2024, 11, 23, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 13, 11, 0),
-    end: new Date(2024, 7, 13, 11, 45),
+    start: new Date(2024, 11, 24, 11, 0),
+    end: new Date(2024, 11, 24, 11, 45),
   },
-
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 13, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2024, 11, 25, 14, 0),
+    end: new Date(2024, 11, 25, 14, 45),
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 14, 8, 0),
-    end: new Date(2024, 7, 14, 8, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 7, 14, 10, 0),
-    end: new Date(2024, 7, 14, 10, 45),
-  },
-
-  {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2024, 7, 14, 13, 0),
-    end: new Date(2024, 7, 14, 13, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 14, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2024, 11, 26, 8, 0),
+    end: new Date(2024, 11, 26, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 15, 9, 0),
-    end: new Date(2024, 7, 15, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 7, 15, 10, 0),
-    end: new Date(2024, 7, 15, 10, 45),
+    start: new Date(2024, 11, 26, 9, 0),
+    end: new Date(2024, 11, 26, 9, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 15, 11, 0),
-    end: new Date(2024, 7, 15, 11, 45),
+    start: new Date(2024, 11, 27, 11, 0),
+    end: new Date(2024, 11, 27, 11, 45),
   },
-
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2024, 11, 28, 13, 0),
+    end: new Date(2024, 11, 28, 13, 45),
+  },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 15, 14, 0),
-    end: new Date(2024, 7, 15, 14, 45),
+    start: new Date(2024, 11, 29, 14, 0),
+    end: new Date(2024, 11, 29, 14, 45),
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 16, 8, 0),
-    end: new Date(2024, 7, 16, 8, 45),
+    start: new Date(2024, 11, 30, 8, 0),
+    end: new Date(2024, 11, 30, 8, 45),
+  },
+
+  // Events for January 2025 (1-7)
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 0, 1, 8, 0),
+    end: new Date(2025, 0, 1, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 16, 9, 0),
-    end: new Date(2024, 7, 16, 9, 45),
+    start: new Date(2025, 0, 2, 9, 0),
+    end: new Date(2025, 0, 2, 9, 45),
   },
-
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 0, 3, 10, 0),
+    end: new Date(2025, 0, 3, 10, 45),
+  },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 16, 11, 0),
-    end: new Date(2024, 7, 16, 11, 45),
-  },
-  {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2024, 7, 16, 13, 0),
-    end: new Date(2024, 7, 16, 13, 45),
+    start: new Date(2025, 0, 4, 11, 0),
+    end: new Date(2025, 0, 4, 11, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
-    end: new Date(2024, 7, 16, 14, 45),
+    start: new Date(2025, 0, 5, 14, 0),
+    end: new Date(2025, 0, 5, 14, 45),
+  },
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 0, 6, 8, 0),
+    end: new Date(2025, 0, 6, 8, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 0, 7, 9, 0),
+    end: new Date(2025, 0, 7, 9, 45),
+  },
+  {
+    title: "Morning Meeting",
+    allDay: false,
+    start: new Date(2024, 11, 22, 9, 0), // December 22, 2024, 9:00 AM
+    end: new Date(2024, 11, 22, 9, 45), // December 22, 2024, 9:45 AM
+  },
+  {
+    title: "Project Discussion",
+    allDay: false,
+    start: new Date(2024, 11, 22, 11, 0), // December 22, 2024, 11:00 AM
+    end: new Date(2024, 11, 22, 11, 45), // December 22, 2024, 11:45 AM
+  },
+
+  {
+    title: "Team Collaboration",
+    allDay: false,
+    start: new Date(2024, 11, 22, 14, 0), // December 22, 2024, 2:00 PM
+    end: new Date(2024, 11, 22, 14, 45), // December 22, 2024, 2:45 PM
+  },
+  {
+    title: "Client Presentation",
+    allDay: false,
+    start: new Date(2024, 11, 22, 16, 0), // December 22, 2024, 4:00 PM
+    end: new Date(2024, 11, 22, 16, 45), // December 22, 2024, 4:45 PM
   },
 ];

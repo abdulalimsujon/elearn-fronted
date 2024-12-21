@@ -1,3 +1,108 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.react-calender {
+  width: 100% !important;
+  border: none !important;
+  font-family: inter sans-serif !important;
+}
+
+.react-calendar__tile--active {
+  background-color: #c3ebfa !important;
+  color: black !important;
+}
+.react-calendar__navigation__label__labelText {
+  font-weight: 600;
+}
+
+.rbc-btn-group:first-child {
+  display: none !important;
+}
+.rbc-toolbar-label {
+  text-align: right !important;
+  padding: 0 20px !important;
+}
+
+.rbc-btn-group:last-child {
+  font-size: 13px !important;
+}
+.rbc-btn-group:last-child button {
+  border: none !important;
+  background-color: #f1f0ff;
+  margin-left: 2px !important;
+}
+
+.rbc-toolbar button:active,
+.rbc-toolbar button.rbc-active {
+  background-color: #dbdafe !important;
+  box-shadow: none !important;
+}
+.rbc-time-view {
+  border-color: #eee !important;
+}
+.rbc-time-header {
+  display: none !important;
+}
+.rbc-time-content {
+  border: none !important;
+}
+.rbc-time-gutter .rbc-time-column {
+  font-size: 12px !important;
+}
+
+.rbc-time-gutter .rbc-time-column .rbc-timeslot-group {
+  padding: 0 20px;
+}
+.rbc-timeslot-group {
+  background-color: #f7fdff;
+}
+.rbc-day-slot {
+  font-size: 14px !important;
+}
+.rbc-event {
+  border: none !important;
+  color: black !important;
+  padding: 10px !important;
+  margin: 10px !important;
+  width: 99% !important;
+}
+.rbc-event:nth-child(1) {
+  background-color: #fad6d6 !important; /* Light Coral */
+}
+
+.rbc-event:nth-child(2) {
+  background-color: #add8e6 !important; /* Light Blue */
+}
+
+.rbc-event:nth-child(3) {
+  background-color: #90ee90 !important; /* Light Green */
+}
+
+.rbc-event:nth-child(4) {
+  background-color: #ffffe0 !important; /* Light Yellow */
+}
+
+.rbc-event:nth-child(5) {
+  background-color: #ffb6a5 !important; /* Light Orange */
+}
+
+.rbc-event:nth-child(6) {
+  background-color: #e6e6fa !important; /* Lavender */
+}
+
+.rbc-event:nth-child(7) {
+  background-color: #ffb6c1 !important; /* Light Pink */
+}
+
+.rbc-event:nth-child(8) {
+  background-color: #ffe4b5 !important; /* Moccasin */
+}
+
+.rbc-event:nth-child(9) {
+  background-color: #e0ffff !important; /* Light Cyan */
+}
+
+.rbc-event:nth-child(10) {
+  background-color: #d8bfd8 !important; /* Thistle */
+}
