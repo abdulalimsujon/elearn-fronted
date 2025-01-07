@@ -4,7 +4,7 @@ import EventCalendar from "@/components/EventCalendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import React from "react";
 
-const Teacher = () => {
+const TeacherPage = () => {
   return (
     <div className="p-4 flex gap-4 flex-col xl:flex-row flex-1">
       {/* this is left  */}
@@ -22,4 +22,4 @@ const Teacher = () => {
   );
 };
 
-export default Teacher;
+export default TeacherPage;
